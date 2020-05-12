@@ -1,0 +1,91 @@
+.centerA{
+
+    text-align: center;
+    align-content: center;
+}
+
+body{
+
+    background-color: chartreuse;
+
+}
+
+#container{
+
+    background-color: gray;
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+
+#resultWindow{
+
+    background-color: lightblue;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: auto;
+    height: 75px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+
+}
+
+#buttons{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.grid1{
+
+    display: grid;
+    grid-template-columns: 150px 75px 75px;
+    grid-template-rows: 100px;
+
+}
+
+.grid2{
+
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 75px 75px 75px 75px;
+
+}
+
+.button{
+
+    color: black;
+    background-color: darkgray;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 4px;
+    border-width: 0px 1px 1px 0px;
+    border-color: black;
+    border-radius: 2px;
+    transition: 0.5s;
+
+}
+
+.button.blueB{
+
+    background-color: rgb(42, 181, 206);
+
+}
+
+.button.redB{
+
+    background-color: lightcoral;
+
+}
+
